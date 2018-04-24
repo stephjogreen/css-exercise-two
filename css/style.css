@@ -91,15 +91,18 @@ nav {
 }
 
 .large-pic {
-	background: rgba(0,0,0,.5) url(images/bloc logo.png) no-repeat top left;
+	background-image: url(./images/bloc logo.png);
+	background-image: no-repeat;
+	background-position: top left;
   width: 100%;
 }
 
 .medium-pic {
-	background: rgba(0,0,0,.5) url(instagram-pic.jpg) no-repeat top center;
+	background-image: url(./instagram-pic.jpg);
+	background-image: no-repeat;
+	background-position: top left;
   width: 70%;
 }
-
 
 .left, .right {
   float: left;
