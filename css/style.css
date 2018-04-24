@@ -51,26 +51,31 @@ table {
 body {
   background-color: #ffffff;
   color: #4f4f4f;
-	font-size: 16px;
+	font-size: 16px; /*edited to adjust font size through doc*/
 }
+
 a {
 	text-decoration: none;
 }
-a:link { color:#0070bb; }
+
+a:link { color:#0070bb; } /*display interactivity*/
 a:visited { color:#0070ba; }
 a:hover { color:#0070bc; }
 a:active { color:#0070bd }
 
 h1 {
-	font-size: 2em;
+	font-size: 2.5em; /*edited font size*/
 	text-transform: capitalize;
 }
 
 h3 {
-	font-size: 1.3em;
+	font-size: 1.3em; /*edited font size*/
+	line-height: 1.3;
 }
+
 p {
-line-height: 1.2;
+	font-size: 100%;
+  line-height: 2; /*edited line-height*/
 }
 
 nav {
@@ -94,6 +99,7 @@ nav {
 	background: rgba(0,0,0,.5) url(instagram-pic.jpg) no-repeat top center;
   width: 70%;
 }
+
 
 .left, .right {
   float: left;
