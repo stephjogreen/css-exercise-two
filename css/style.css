@@ -60,7 +60,7 @@ a {
 
 a:link { color:#0070bb; } /*display interactivity*/
 a:visited { color:#0070ba; }
-a:hover { color:#0070bc; }
+a:hover { color: red; }
 a:active { color:#0070bd }
 
 h1 {
@@ -88,20 +88,6 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
-}
-
-.large-pic {
-	background-image: url(./images/bloc logo.png);
-	background-image: no-repeat;
-	background-position: top left;
-  width: 100%;
-}
-
-.medium-pic {
-	background-image: url(./instagram-pic.jpg);
-	background-image: no-repeat;
-	background-position: top left;
-  width: 70%;
 }
 
 .left, .right {
